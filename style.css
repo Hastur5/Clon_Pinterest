@@ -55,21 +55,30 @@ nav{
     border-radius: 50%;
 }
 
-label, .card-title{
-    font-size: small;
+label{
+    font-size: x-small;
     margin-left: 15px;
 }
 
-.card-text2{
-    font-size:small;
+.mycard-text2{
+    font-size:12px;
     color: slategray;
     line-height: 2px;
 }
-.card-text{
+.mycard-text{
     line-height: 6px;
 }
 
 #usuario{
     border: 0px solid;
-    height: 40px;
+    height: 80px;
+}
+
+.dropdown-item{
+    font-size: 14px;
+}
+
+.card-personalizada{
+    width: 900px;
+    height: 700px;
 }
