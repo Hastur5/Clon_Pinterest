@@ -55,6 +55,21 @@ nav{
     border-radius: 50%;
 }
 
-label{
+label, .card-title{
     font-size: small;
+    margin-left: 15px;
+}
+
+.card-text2{
+    font-size:small;
+    color: slategray;
+    line-height: 2px;
+}
+.card-text{
+    line-height: 6px;
+}
+
+#usuario{
+    border: 0px solid;
+    height: 40px;
 }
