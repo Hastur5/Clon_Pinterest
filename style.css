@@ -56,5 +56,25 @@ nav{
 }
 
 label{
-    font-size: small;
+    font-size: x-small;
+    margin-left: 15px;
 }
+
+.mycard-text2{
+    font-size:12px;
+    color: slategray;
+    line-height: 2px;
+}
+.mycard-text{
+    line-height: 6px;
+}
+
+#usuario{
+    border: 0px solid;
+    height: 80px;
+}
+
+.dropdown-item{
+    font-size: 14px;
+}
+
