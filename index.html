@@ -94,6 +94,9 @@
     <div class="container-fluid grid" style="width: 99%;">
         <div class="row">
           <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalimage1">
+              <img class="imagen" src="img/work.jpg" class="img-fluid" alt="...">
+            </a>
             <img class="imagen" src="img/Bills.jpg" class="img-fluid" alt="...">
             <img class="imagen" src="img/nails.jpg" class="img-fluid" alt="...">
           </div>
@@ -120,8 +123,12 @@
         </div>
       </div>
 
-
-
+<!-- Se agrega modal para ver descripción de la imagen -->
+<div tabindex="-1" aria-labelledby="modalimage1" aria-hidden="true" class="modal fade" id="modalimage1">
+  <div class="modal-dialog .modal-fullscreen-xxl-down modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content"><img src="./img/work.jpg" alt=""></div>
+  </div>
+</div>
       
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
