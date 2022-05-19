@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-img{
-    margin: 10px 0px 30px 0px;
+.imagen{
+    margin: 50px 0px 30px 0px;
     border-radius: 15px;
     width: 100%;
 }
