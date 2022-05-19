@@ -45,3 +45,11 @@ notbg-light{
 nav{
     background-color: white;
 }
+
+.iconimg{
+    border-radius: 50%;
+}
+
+label{
+    font-size: small;
+}
