@@ -13,6 +13,12 @@
     object-fit: cover;
 }
 
+.imagen:hover {
+    filter: grayscale(80%);
+    border-radius: 15px;
+    cursor:zoom-in;
+}
+
 .inicio{
     border-radius: 25px;
     background-color: black;
@@ -77,4 +83,3 @@ label{
 .dropdown-item{
     font-size: 14px;
 }
-
